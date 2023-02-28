@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
+body{
+    overflow-x: hidden;
+}
+.main-nav a {
+    font-weight: 800;
+    color: #240707;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.active{
+    color:#95230d!important;
+}
+.hover:hover{
+    color:#95230d;
+}
+.nav-icon i{
+    background: #232020;
+}
+.nav-icon svg {
+    width: 31px;
+    height: 31px;
+}
+.cart {
+    background: #303030;
+    position: relative;
+    display: flex;
+    line-height: 30px;
+}
+.cart:before {
+    position: absolute;
+    width: 20px;
+    background: #303030;
+    content: "0";
+    right: -10px;
+    color: white;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    top: 14px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.cart.hover{
+    color: white;
+    font-size: 14px;
+}
+.cart svg{
+    height: 20px;
+    width: 20px;
+}
+.header-top{
+    background: #F4F3F3;
+}
+.banner {
+    height: 450px;
+    background-image: url("./../image/banner.jpg");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section.banner:after {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    content: '';
+    background: black;
+    opacity: .3;
+    z-index: 1;
+}
+.banner-contant h1  {
+    color: #F1EDED;
+    font-family: 'Noto Naskh Arabic', serif;
+    font-size: 85px;
+}
+.banner-contant h3  {
+    color: #F1EDED;
+    font-family: 'Noto Naskh Arabic', serif;
+    font-size: 40px;
+}
+.z-index-99{
+    z-index: 99;
+}
+.underline{
+    position: relative;
+    padding-bottom: 14px;
+}
+.underline:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 80%;
+    background: red;
+    bottom: 0;
+    left: 10%;
+}
+.about{
+    background: #e8e5e5;
+}
+.about-text{
+    color: #504F4F;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 68px;
+}
+.about-p{
+    font-family: 'Noto Naskh Arabic', serif;
+    font-size: 20px;
+}
+.p-100{
+    padding: 100px 0 100px 0;
+}
+
+.we-serve{
+    background-image: url("./../image/porota.jpg");
+}
+.individual{
+    background-image: url("./../image/pic14.jpg");
+}
+.food-item{
+    background-image: url("./../image/rod-long-655834-unsplash.jpg");
+    background-attachment: scroll;
+    color: #585858;
+}
+.indi-img{
+    background-image: url("./../image/PIC-8.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.event{
+    background-image: url("./../image/event.jpg");
+}
+.text-20{
+    font-size: 20px;
+}
+.event-icon svg {
+    height: 50px;
+    width: 50px;
+    background: #8f6746;
+    padding: 30px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.price {
+    color: #C9340F;
+    font-size: 35px;
+}
+
+.price span {
+    font-size: 60px;
+}
+
+.title {
+    background: #C9340F;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    padding: 25px 0;
+}
+.menu-background{
+    background-image: url("../../assets/image/pic14.jpg");
+    position: relative;
+}
+.menu-background:after {
+    position: absolute;
+    background: white;
+    height: 100%;
+    width: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: 1;
+}
+.menu-card{
+    z-index: 99;
+}
+.gallery{
+    background-image: url("../../assets/image/pic9-2-rotated.jpg");
+}
+.gallery:after {
+    background: transparent!important;
+    opacity: 1!important;
+}
+.contact-top{
+    background-image: url("../../assets/image/pic15.jpg");
+    background-attachment: scroll;
+    background-position: center center;
+}
+.contact-title {
+    color: #C9340F;
+}
+.contact-title:after {
+    position: absolute;
+    content: '';
+    height: 5px;
+    width: 30%;
+    background: red;
+    bottom: -5px;
+    left: 35%;
+}
+
+.contact-h2 {
+    font-size: 50px;
+    color: #565656;
+}
+.contact{
+    background-image: url("../../assets/image/hector-martinez-110928-unsplash.jpg");
+    background-attachment: scroll;
+    background-position: center center;
+}
+.contact:after {
+    background: white!important;
+    opacity: .9!important;
+}
+.height-auto{
+    height: auto!important;
+}
+.image img {
+     width: 300px;
+    height: 200px;
+ }
+
+
+.navbar-demo {
+    display: table;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    display: none;
+}
+
+.navbar-demo .nav-bar ul li {
+    display: block;
+}
+
+.navbar-demo .nav-bar ul {
+    padding: 0;
+    display: table;
+    text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-demo .nav-bar ul li a {
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.nav-bar {
+    text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+}
+.navbar-demo button.menu-btn {
+    display:none;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px){
+    .header-top{
+        display: none;
+    }
+    .navbar-demo  button.menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: unset;
+        border: 0;
+        font-size: 26px;
+        display:block;
+        padding: 23px;
+        color: #fff;
+        outline: none;
+    }
+    .navbar-demo{
+        height:100%;
+        z-index: 999;
+        display: block;
+    }
+    .navbar-demo .nav-bar {
+        left: -950px;
+        background-color: #000000d9;
+        transition: 1s;
+        height: 100%;
+    }
+
+    .navbar-demo.open-nav  .nav-bar{
+        left: 0;
+        width: 100%;
+        transition: left 0.5s;
+        height: 100%;
+    }
+
+    .navbar-demo .nav-bar ul li a {
+        display: block;
+        color: #fff;
+    }
+    .navbar-demo.open-nav button.menu-btn i:before {
+        content: '\f00d ';
+    }
+}
+
+
+
+
